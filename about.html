@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Fran | Fran's Flowers</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* Page-only override: make body text flush left (ragged right) */
+      body.about-page,
+      body.about-page main,
+      body.about-page .about-fran,
+      body.about-page .about-fran .fran-content,
+      body.about-page .about-fran .fran-story,
+      body.about-page .about-fran p,
+      body.about-page .about-fran h1,
+      body.about-page .about-fran h2,
+      body.about-page .about-fran h3 {
+        text-align: left !important;
+      }
+
+      /* Page-only override: make header text flush left (ragged right) */
+      body.about-page header,
+      body.about-page header .header-container,
+      body.about-page header .header-content,
+      body.about-page header h1,
+      body.about-page header .tagline,
+      body.about-page header nav,
+      body.about-page header nav ul,
+      body.about-page header nav a {
+        text-align: left !important;
+      }
+
+      body.about-page .fran-content {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      body.about-page .fran-content .fran-story {
+        max-width: 42rem;
+      }
+    </style>
+  </head>
+
+  <body class="about-page">
+    <header>
+      <div class="header-container">
+        <div class="header-content">
+          <h1><span class="accent">Fran's</span> Flowers</h1>
+          <p class="tagline">Brightening San Francisco since 1995</p>
+        </div>
+        <nav aria-label="Main Navigation">
+          <ul>
+            <li><a href="index.html#about-us">About Us</a></li>
+            <li><a href="about.html">About Fran</a></li>
+            <li><a href="index.html#seasonal">Seasonal Picks</a></li>
+            <li><a href="index.html#specials">Specials</a></li>
+            <li><a href="index.html#visit-us">Visit Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-fran">
+        <h1><span class="accent">About</span> Fran</h1>
+
+        <div class="fran-content">
+          <img
+            src="img/fran.png"
+            alt="Francine Miller, founder of Fran's Flowers"
+            class="fran-portrait"
+          />
+
+          <div class="fran-story">
+            <h2>Francine Miller</h2>
+            <p>
+              Francine Miller founded Fran's Flowers in 1995 with a simple
+              mission: to bring joy, beauty, and connection to the Mission
+              District of San Francisco. What started as a small storefront with
+              a passion for flowers has grown into a beloved community
+              institution.
+            </p>
+
+            <h3>A Vision of Beauty and Service</h3>
+            <p>
+              Fran believed that flowers have the power to transform moments
+              into memories. Whether it's a birthday celebration, a wedding, a
+              gesture of sympathy, or simply brightening someone's day, every
+              arrangement that leaves the shop carries that belief forward.
+            </p>
+
+            <h3>Community First</h3>
+            <p>
+              From the very beginning, Fran's Flowers has been committed to
+              giving back. Ten percent of every sale supports efforts to fight
+              homelessness across the Bay Area. For over thirty years, this
+              commitment has remained at the heart of everything we do.
+            </p>
+
+            <h3>Local and Sustainable</h3>
+            <p>
+              Fran has always prioritized sourcing flowers locally whenever
+              possible. By supporting local growers and using sustainable
+              practices, we ensure that our beautiful bouquets are kind to both
+              our community and our planet.
+            </p>
+
+            <h3>Then and Now</h3>
+            <p>
+              Today, Fran's Flowers continues to thrive under the same values
+              that inspired its founding. Our team of skilled florists works
+              daily to create stunning arrangements that celebrate life's
+              special moments while honoring Fran's vision of spreading kindness
+              one flower at a time.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <p class="footer-logo">Fran's Flowers LLC.</p>
+          <p>© 2026 Brightening lives one flower at a time.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html#about-us">About Us</a></li>
+            <li><a href="about.html">About Fran</a></li>
+            <li><a href="index.html#specials">Weekly Specials</a></li>
+            <li><a href="index.html#visit-us">Visit Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-socials">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#" aria-label="Facebook">Facebook</a></li>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Yelp">Yelp</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
